@@ -1,0 +1,7 @@
+Entorno donde se realizaron los scripts sql:
+* Tipo de servidor: MariaDB
+*Versión del servidor: 10.1.40-MariaDB 
+
+1: Ejecutar primero el archivo creacion.sql
+2: Luego ejecutar el archivo poblacion.sql
+3: Por ultimo ejecutar el archivo consultas.sql

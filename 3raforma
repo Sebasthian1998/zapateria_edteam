@@ -1,0 +1,8 @@
+/*TERCERA FORMA NORMAL DE ZAPATERIA EL ZAPATO ROTO */
+
+Paises(ID#,nombre) PK:ID 
+Clientes(ID#,nombre,correo,apellido,edad,fecha_ingreso,id_pais%) PK:ID FK: id_pais
+Facturaciones(ID#,impuesto,descuento,fecha_creacion,id_cliente%) PK:ID FK: id_cliente
+Productos(ID#,nombre,presentacion,valor,fecha_ingreso,id_invent%) PK:ID FK: id_invent
+Facturacion_Producto(id_producto#%,id_factura#%, cantidad_vendida) PK:id_producto,id_producto FK: id_factura, id_producto
+Inventario(ID#,tipo_mov,fecha_mov,cantidad,id_prod%) PK:ID FK: id_prod
